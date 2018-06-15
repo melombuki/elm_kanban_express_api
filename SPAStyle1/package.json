@@ -1,0 +1,39 @@
+{
+  "name": "spastyle1",
+  "version": "1.0.0",
+  "description": "Generated elm",
+  "main": "index.js",
+  "author": "Melombuki",
+  "license": "BSD3",
+  "dependencies": {
+    "ace-css": "^1.1.0",
+    "css-loader": "^0.26.1",
+    "elm-webpack-loader": "^4.5.0",
+    "file-loader": "^0.10.0",
+    "font-awesome": "^4.7.0",
+    "install": "^0.8.7",
+    "npm": "^4.1.2",
+    "semantic-ui-css": "^2.2.9",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.3.2",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-dev-server": "^1.16.3"
+  },
+  "devDependencies": {
+    "browser-sync": "1.9.2",
+    "del": "1.2.1",
+    "jshint-stylish": "1.0.2",
+    "merge-stream": "0.1.8",
+    "wiredep": "2.2.2"
+  },
+  "engines": {
+    "node": ">0.10.0"
+  },
+  "scripts": {
+    "api": "node melombukiServer.js",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --port 3000"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "melombukinodeserver",
+  "version": "1.0.0",
+  "description": "The server for melombuki kanban task tracker.",
+  "main": "melombukiServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "melombuki",
+    "awesome",
+    "kanban"
+  ],
+  "author": "Melombuki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "nedb": "^1.8.0"
+  }
+}
